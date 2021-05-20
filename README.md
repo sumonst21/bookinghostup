@@ -22,6 +22,14 @@ Plugins
 - Elementor
 - Smush
 
+Other Technologies
+---------
+
+- CSS
+- HTML
+- JS
+- PHP
+
 Host
 ---------
 

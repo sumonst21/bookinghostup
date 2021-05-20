@@ -39,7 +39,9 @@ Custom Files
 ---------
  
 I have customized the files below to attend to the customer requirements.   
-Please revise the files before any plugin updating. (search for "/** Hostup" to find the customizations)
+Please revise the files before any plugin updating. 
+
+PS. search for "/** Hostup " to find the customizations
  
 ![image](https://user-images.githubusercontent.com/22096119/118993227-ad7a4000-b9c8-11eb-9c20-1f9979917cd2.png)
 

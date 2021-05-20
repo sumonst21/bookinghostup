@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MotoPress Google Maps Addon\n"
+"POT-Creation-Date: 2016-02-15 17:46+0200\n"
+"PO-Revision-Date: 2016-02-15 17:46+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: build\n"
+
+#: inc/license.php:11 inc/settingsPage.php:18
+msgid "Settings saved."
+msgstr ""
+
+#: inc/license.php:21
+msgid "Image Hotspot Addon License"
+msgstr ""
+
+#: inc/license.php:22
+msgid ""
+"The License Key is required in order to get automatic plugin updates and "
+"support. You can manage your License Key in your personal account. <a "
+"href='https://motopress.zendesk.com/hc/en-us/articles/202812996-How-to-use-"
+"your-personal-MotoPress-account' target='blank'>Learn more</a>."
+msgstr ""
+
+#: inc/license.php:30
+msgid "License Key"
+msgstr ""
+
+#: inc/license.php:43
+msgid "Status"
+msgstr ""
+
+#: inc/license.php:51
+msgid "Inactive"
+msgstr ""
+
+#: inc/license.php:57
+msgid "Valid until"
+msgstr ""
+
+#: inc/license.php:59
+msgid "Valid"
+msgstr ""
+
+#: inc/license.php:63
+msgid "Disabled"
+msgstr ""
+
+#: inc/license.php:69
+msgid "Invalid"
+msgstr ""
+
+#: inc/license.php:72
+msgid ""
+"Your License Key does not match the installed plugin. <a href='https://"
+"motopress.zendesk.com/hc/en-us/articles/202957243-What-to-do-if-the-"
+"license-key-doesn-t-correspond-with-the-plugin-license' "
+"target='_blank'>How to fix this.</a>"
+msgstr ""
+
+#: inc/license.php:82
+msgid "Action"
+msgstr ""
+
+#: inc/license.php:90
+msgid "Activate License"
+msgstr ""
+
+#: inc/license.php:95
+msgid "Deactivate License"
+msgstr ""
+
+#: inc/license.php:100
+msgid "Renew License"
+msgstr ""
+
+#: inc/license.php:111 inc/settingsPage.php:26
+msgid "Save"
+msgstr ""
+
+#: inc/mpLibrary.php:6 inc/mpLibrary.php:30 inc/mpLibrary.php:46
+#: inc/mpLibrary.php:192 inc/mpLibrary.php:222
+msgid "Inherit"
+msgstr ""
+
+#: inc/mpLibrary.php:7 inc/mpLibrary.php:14
+msgid "Top"
+msgstr ""
+
+#: inc/mpLibrary.php:8 inc/mpLibrary.php:15
+msgid "Right"
+msgstr ""
+
+#: inc/mpLibrary.php:9 inc/mpLibrary.php:16
+msgid "Bottom"
+msgstr ""
+
+#: inc/mpLibrary.php:10 inc/mpLibrary.php:17
+msgid "Left"
+msgstr ""
+
+#: inc/mpLibrary.php:21 inc/mpLibrary.php:31
+msgid "Dark"
+msgstr ""
+
+#: inc/mpLibrary.php:22 inc/mpLibrary.php:32
+msgid "Silver"
+msgstr ""
+
+#: inc/mpLibrary.php:23 inc/mpLibrary.php:33
+msgid "Noir"
+msgstr ""
+
+#: inc/mpLibrary.php:24 inc/mpLibrary.php:34
+msgid "Shadow"
+msgstr ""
+
+#: inc/mpLibrary.php:25 inc/mpLibrary.php:35 inc/mpLibrary.php:94
+#: inc/mpLibrary.php:195
+msgid "Black"
+msgstr ""
+
+#: inc/mpLibrary.php:26 inc/mpLibrary.php:36 inc/mpLibrary.php:95
+#: inc/mpLibrary.php:196
+msgid "Custom"
+msgstr ""
+
+#: inc/mpLibrary.php:40 inc/mpLibrary.php:47
+msgid "On Hover"
+msgstr ""
+
+#: inc/mpLibrary.php:41 inc/mpLibrary.php:48
+msgid "Always"
+msgstr ""
+
+#: inc/mpLibrary.php:42 inc/mpLibrary.php:49
+msgid "On Click"
+msgstr ""
+
+#: inc/mpLibrary.php:52
+msgid "Image Hotspot"
+msgstr ""
+
+#: inc/mpLibrary.php:58 inc/mpLibrary.php:165
+msgid "Hotspot"
+msgstr ""
+
+#: inc/mpLibrary.php:62
+msgid "Add New Hotspot"
+msgstr ""
+
+#: inc/mpLibrary.php:82
+msgid "Main Image"
+msgstr ""
+
+#: inc/mpLibrary.php:84
+msgid "Choose an image from Media Library"
+msgstr ""
+
+#: inc/mpLibrary.php:89 inc/mpLibrary.php:189
+msgid "Hotspot Theme"
+msgstr ""
+
+#: inc/mpLibrary.php:92 inc/mpLibrary.php:193
+msgid "Red"
+msgstr ""
+
+#: inc/mpLibrary.php:93 inc/mpLibrary.php:194
+msgid "Grey"
+msgstr ""
+
+#: inc/mpLibrary.php:100 inc/mpLibrary.php:201
+msgid "Hotspot Color"
+msgstr ""
+
+#: inc/mpLibrary.php:109 inc/mpLibrary.php:210
+msgid "Hotspot Icon Color"
+msgstr ""
+
+#: inc/mpLibrary.php:118 inc/mpLibrary.php:219
+msgid "Hotspot Size"
+msgstr ""
+
+#: inc/mpLibrary.php:121 inc/mpLibrary.php:223
+msgid "Small"
+msgstr ""
+
+#: inc/mpLibrary.php:122 inc/mpLibrary.php:224
+msgid "Middle"
+msgstr ""
+
+#: inc/mpLibrary.php:123 inc/mpLibrary.php:225
+msgid "Large"
+msgstr ""
+
+#: inc/mpLibrary.php:128 inc/mpLibrary.php:230
+msgid "Tooltip Theme"
+msgstr ""
+
+#: inc/mpLibrary.php:134 inc/mpLibrary.php:236
+msgid "Tooltip Background Color"
+msgstr ""
+
+#: inc/mpLibrary.php:143 inc/mpLibrary.php:245
+msgid "Tooltip Font Color"
+msgstr ""
+
+#: inc/mpLibrary.php:168
+msgid "Description"
+msgstr ""
+
+#: inc/mpLibrary.php:171
+msgid "Edit"
+msgstr ""
+
+#: inc/mpLibrary.php:176
+msgid "X Position, %"
+msgstr ""
+
+#: inc/mpLibrary.php:177 inc/mpLibrary.php:183
+msgid "Hover an image to display coordinates"
+msgstr ""
+
+#: inc/mpLibrary.php:182
+msgid "Y Position, %"
+msgstr ""
+
+#: inc/settings.php:53
+#, php-format
+msgid "The %1$s plugin header is deprecated. Use %2$s instead."
+msgstr ""
+
+#: inc/settingsPage.php:6
+msgid "Countdown Pro"
+msgstr ""
+
+#: inc/settingsPage.php:47
+msgid "Hotspot Addon"
+msgstr ""

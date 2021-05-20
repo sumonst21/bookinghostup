@@ -1,0 +1,31 @@
+/* This Awesome CSS file was created by Font Orgranizer from Hive :) */
+
+
+@font-face {
+    font-family: 'Din Neuzit Grotesk';
+    src: url('//localhost/hostupwebsite/wp-content/uploads/font-organizer/DINNeuzeitGroteskStd-BdCond.eot');
+    src: url('//localhost/hostupwebsite/wp-content/uploads/font-organizer/DIN-30640-Std-Neuzeit-Grotesk-Bold-Cond.woff') format('woff'),
+url('//localhost/hostupwebsite/wp-content/uploads/font-organizer/DINNeuzeitGroteskStd-BdCond.eot?#iefix') format('embedded-opentype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'avenir-heavy';
+    
+    src: url('//localhost/hostupwebsite/wp-content/uploads/font-organizer/AvenirLTStd-Heavy.woff') format('woff');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'avenir-medium';
+    
+    src: url('//localhost/hostupwebsite/wp-content/uploads/font-organizer/AvenirLTStd-Medium.woff') format('woff');
+font-weight: 600;
+}
+
+@font-face {
+    font-family: 'avenir-light-webfont';
+    
+    src: url('//localhost/hostupwebsite/wp-content/uploads/font-organizer/AvenirLTStd-Light.woff') format('woff');
+font-weight: normal;
+}

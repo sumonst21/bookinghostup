@@ -1,0 +1,66 @@
+.site-header-wrapper {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.blog-posts-widget-wrapper .post {
+	width: 33%;
+}
+
+.blog-posts-widget-wrapper {
+	display: flex;
+}
+
+.pricing-item {
+	text-align: center;
+}
+.pricing-item > * {
+	margin-bottom: 1em;
+	display: block;
+}
+
+.blog-posts-widget-wrapper .post .lnr,
+.site-header-wrapper.video-bg img.back,
+.site-header-wrapper .slide-down
+{
+	display: none;
+}
+
+.site-header-wrapper.custom-image-bg .custom-header-content{
+	padding: 5em 2em;
+	color: #fff;
+}
+.site-header-wrapper.custom-image-bg .custom-header-content a,
+.site-header-wrapper.custom-image-bg .custom-header-content a :hover,
+.site-header-wrapper.custom-image-bg .custom-header-content a :active,
+.site-header-wrapper.custom-image-bg .custom-header-content a :focus {
+	color: inherit;
+}
+
+.portfolio-wrapper .type-cptp-portfolio a.post-thumbnail,
+.team-wrapper .type-cptp-team a.post-thumbnail,
+.type-cptp-testimonial a.post-thumbnail
+{
+	text-decoration: none;
+	box-shadow: none;
+	border: none;
+}
+
+#main-slider-dots .slick-dots li {
+	width: auto;
+	margin-top: 1em;
+}
+
+.custom-header-content .button {
+    margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.portfolio-wrapper .type-cptp-portfolio .overlay {
+	display: none;
+}
+
+.activities-wrapper .type-cptp-activity,
+.portfolio-wrapper .type-cptp-portfolio {
+	margin-bottom: 2em;
+}

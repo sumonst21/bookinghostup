@@ -1,0 +1,8 @@
+[11-Nov-2019 17:21:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/views/preview-posts.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/views/preview-posts.php on line 3
+[30-Nov-2019 19:12:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/views/preview-posts.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/views/preview-posts.php on line 3

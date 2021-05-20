@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'stairs';
+  src: url('../font/stairs.eot?70484987');
+  src: url('../font/stairs.eot?70484987#iefix') format('embedded-opentype'),
+       url('../font/stairs.woff2?70484987') format('woff2'),
+       url('../font/stairs.woff?70484987') format('woff'),
+       url('../font/stairs.ttf?70484987') format('truetype'),
+       url('../font/stairs.svg?70484987#stairs') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'stairs';
+    src: url('../font/stairs.svg?70484987#stairs') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "stairs";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-016-check-out:before { content: '\e809'; } /* '' */
+.icon-007-password:before { content: '\e80a'; } /* '' */
+.icon-008-fan:before { content: '\e80b'; } /* '' */
+.icon-009-alarm:before { content: '\e80c'; } /* '' */
+.icon-010-hair-dryer:before { content: '\e80d'; } /* '' */
+.icon-011-shampoo:before { content: '\e80e'; } /* '' */
+.icon-012-toilet-paper:before { content: '\e80f'; } /* '' */
+.icon-014-check-in:before { content: '\e811'; } /* '' */
+.icon-016-moon-phase-outline:before { content: '\e813'; } /* '' */
+.icon-017-policy:before { content: '\e814'; } /* '' */
+.icon-018-success:before { content: '\e815'; } /* '' */
+.icon-020-radiator:before { content: '\e817'; } /* '' */
+.icon-021-office:before { content: '\e818'; } /* '' */
+.icon-022-iron-1:before { content: '\e819'; } /* '' */
+.icon-025-iron-2:before { content: '\e81c'; } /* '' */
+.icon-026-check-out:before { content: '\e81d'; } /* '' */
+.icon-028-block:before { content: '\e81f'; } /* '' */
+.icon-029-signal:before { content: '\e820'; } /* '' */
+.icon-030-mute:before { content: '\e821'; } /* '' */
+.icon-001-speaker:before { content: '\e822'; } /* '' */
+.icon-003-wifi-connection-signal-symbol:before { content: '\e824'; } /* '' */
+.icon-004-restaurant-eating-tools-set-of-three-pieces:before { content: '\e825'; } /* '' */
+.icon-005-washing-machine:before { content: '\e826'; } /* '' */
+.icon-006-towel:before { content: '\e827'; } /* '' */

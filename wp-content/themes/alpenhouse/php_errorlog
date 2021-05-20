@@ -1,0 +1,4 @@
+[11-Oct-2019 08:19:48 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bookingh/public_html/wp-content/themes/alpenhouse/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/themes/alpenhouse/index.php on line 15

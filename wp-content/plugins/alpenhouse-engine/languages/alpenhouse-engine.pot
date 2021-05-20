@@ -1,0 +1,466 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Hotel Booking\n"
+"POT-Creation-Date: 2018-06-19 11:44+0300\n"
+"PO-Revision-Date: 2017-02-10 17:51+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: alpenhouse-engine.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Flags-xgettext: --add-comments\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/acf\n"
+
+#: includes/acf-data.php:7
+msgid "Page Header Options"
+msgstr ""
+
+#: includes/acf-data.php:11
+msgid "Header Type"
+msgstr ""
+
+#: includes/acf-data.php:23 includes/elementor/elementor.php:55
+msgid "Default"
+msgstr ""
+
+#: includes/acf-data.php:24 includes/acf-data.php:74
+#: includes/acf-data.php:260 includes/acf-data.php:644
+#: includes/elementor/elementor-widgets/image-hotspot.php:51
+msgid "Image"
+msgstr ""
+
+#: includes/acf-data.php:25
+msgid "Slider"
+msgstr ""
+
+#: includes/acf-data.php:26
+msgid "Video"
+msgstr ""
+
+#: includes/acf-data.php:27
+msgid "Slider+Block"
+msgstr ""
+
+#: includes/acf-data.php:36
+msgid "Image Block"
+msgstr ""
+
+#: includes/acf-data.php:59 includes/acf-data.php:727
+msgid "Background Color"
+msgstr ""
+
+#: includes/acf-data.php:98
+msgid "Preset"
+msgstr ""
+
+#: includes/acf-data.php:110
+msgid "Fill"
+msgstr ""
+
+#: includes/acf-data.php:111
+msgid "Fit"
+msgstr ""
+
+#: includes/acf-data.php:112
+msgid "Repeat"
+msgstr ""
+
+#: includes/acf-data.php:126
+msgid "Scroll"
+msgstr ""
+
+#: includes/acf-data.php:137
+msgid "Scroll with Page"
+msgstr ""
+
+#: includes/acf-data.php:145 includes/acf-data.php:305
+#: includes/acf-data.php:529 includes/acf-data.php:691
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/acf-data.php:160 includes/acf-data.php:320
+#: includes/acf-data.php:544 includes/acf-data.php:707
+msgid "Overlay Opacity"
+msgstr ""
+
+#: includes/acf-data.php:180 includes/acf-data.php:284
+#: includes/acf-data.php:564 includes/acf-data.php:671
+#: includes/elementor/elementor-widgets/pricing.php:95
+msgid "Content"
+msgstr ""
+
+#: includes/acf-data.php:201
+msgid "Slider Block"
+msgstr ""
+
+#: includes/acf-data.php:224 includes/acf-data.php:608
+msgid "Slides"
+msgstr ""
+
+#: includes/acf-data.php:243 includes/acf-data.php:627
+msgid "Slide"
+msgstr ""
+
+#: includes/acf-data.php:340 includes/acf-data.php:762
+msgid "Automatic Slideshow"
+msgstr ""
+
+#: includes/acf-data.php:359 includes/acf-data.php:781
+msgid "Slideshow Speed"
+msgstr ""
+
+#: includes/acf-data.php:379 includes/acf-data.php:801
+msgid "Effect"
+msgstr ""
+
+#: includes/acf-data.php:406 includes/acf-data.php:828
+msgid "Animation Speed"
+msgstr ""
+
+#: includes/acf-data.php:428
+msgid "Video Block"
+msgstr ""
+
+#: includes/acf-data.php:451
+msgid "Background Image"
+msgstr ""
+
+#: includes/acf-data.php:475
+msgid "Video Source (mp4)"
+msgstr ""
+
+#: includes/acf-data.php:491
+msgid "Loop"
+msgstr ""
+
+#: includes/acf-data.php:502
+msgid "Start video over again, every time it is finished"
+msgstr ""
+
+#: includes/acf-data.php:510
+msgid "Muted"
+msgstr ""
+
+#: includes/acf-data.php:521
+msgid "The audio output of the video should be muted"
+msgstr ""
+
+#: includes/acf-data.php:585
+msgid "Slider with block aligned"
+msgstr ""
+
+#: includes/acf-data.php:742
+msgid "Background Opacity"
+msgstr ""
+
+#: includes/acf-data.php:1086
+msgid "Testimonial Options"
+msgstr ""
+
+#: includes/acf-data.php:1090
+msgid "Subtitle"
+msgstr ""
+
+#: includes/acf-data.php:1109
+msgid "Rating"
+msgstr ""
+
+#: includes/cpt/activity.php:66
+#: template-parts/content-activity-shortcode.php:20
+msgid "Price:"
+msgstr ""
+
+#: includes/custom-header.php:476
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:20
+#: includes/elementor/elementor-widgets/activities.php:32
+msgid "Activities"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:39
+msgid "Activity IDs to show"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:40
+#: includes/elementor/elementor-widgets/portfolio.php:40
+#: includes/elementor/elementor-widgets/testimonials-carousel/testimonials-carousel.php:43
+msgid "Leave blank to include all items"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:48
+msgid "Layout"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:52
+msgid "Grid"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:53
+msgid "List"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:60
+#: includes/elementor/elementor-widgets/portfolio.php:48
+msgid "Columns"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:74
+#: includes/elementor/elementor-widgets/blog-posts.php:74
+#: includes/elementor/elementor-widgets/portfolio.php:59
+msgid "Number of posts to show"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:84
+#: includes/elementor/elementor-widgets/portfolio.php:69
+msgid "Show/Hide posts pagination"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:87
+#: includes/elementor/elementor-widgets/portfolio.php:72
+msgid "Show"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/activities.php:88
+#: includes/elementor/elementor-widgets/portfolio.php:73
+msgid "Hide"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/blog-posts.php:20
+#: includes/elementor/elementor-widgets/blog-posts.php:32
+msgid "Blog posts"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/blog-posts.php:39
+msgid "Post IDs to show"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/blog-posts.php:40
+msgid "Leave blank to include all posts"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/blog-posts.php:48
+msgid "Posts ordering"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/blog-posts.php:60
+msgid "Order posts by"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:20
+#: includes/elementor/elementor-widgets/image-hotspot.php:43
+msgid "Image Hotspot"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:58
+msgid "List of hotspots"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:63
+#: includes/elementor/elementor-widgets/image-hotspot.php:65
+#: includes/elementor/elementor-widgets/pricing.php:41
+msgid "Title"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:70
+msgid "Position X"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:80
+msgid "Position Y"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:89
+msgid "Hotspot size"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:93
+msgid "Normal"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:94
+msgid "Small"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:95
+msgid "Big"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:100
+msgid "Tooltip position"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:104
+msgid "Top"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:105
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:106
+msgid "Left"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:107
+msgid "Bottom"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:112
+msgid "Display tooltip"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:116
+msgid "On click"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:117
+msgid "Always"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/image-hotspot.php:118
+msgid "On hover"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/portfolio.php:20
+#: includes/elementor/elementor-widgets/portfolio.php:32
+msgid "Portfolio"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/portfolio.php:39
+msgid "Portfolio IDs to show"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/pricing.php:21
+#: includes/elementor/elementor-widgets/pricing.php:33
+msgid "Pricing Package"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/pricing.php:50
+msgid "Highlight this item"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/pricing.php:57
+msgid "Sub-title"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/pricing.php:58
+msgid "Visible only when highlighted"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/pricing.php:69
+msgid "Currency"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/pricing.php:77
+msgid "Price"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/pricing.php:87
+msgid "Period"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/pricing.php:102
+msgid "Button text"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/pricing.php:109
+msgid "Button link"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/testimonials-carousel/testimonials-carousel.php:20
+msgid "Testimonials carousel"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/testimonials-carousel/testimonials-carousel.php:35
+msgid "Testimonials"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/testimonials-carousel/testimonials-carousel.php:42
+msgid "Testimonial IDs to show"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/testimonials-carousel/testimonials-carousel.php:51
+msgid "Number of testimonials in carousel"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/testimonials-carousel/testimonials-carousel.php:63
+msgid "Carousel options"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/testimonials-carousel/testimonials-carousel.php:70
+msgid "Slides to show"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/testimonials-carousel/testimonials-carousel.php:81
+msgid "Slide speed"
+msgstr ""
+
+#: includes/elementor/elementor-widgets/testimonials-carousel/testimonials-carousel.php:92
+msgid "Autoplay"
+msgstr ""
+
+#: includes/elementor/elementor.php:8
+msgid "Theme Elements"
+msgstr ""
+
+#: includes/elementor/elementor.php:51
+msgid "List layout"
+msgstr ""
+
+#: includes/elementor/elementor.php:56
+msgid "Horizontal list"
+msgstr ""
+
+#: includes/elementor/elementor.php:57
+msgid "Vertical list"
+msgstr ""
+
+#. Base ID
+#: includes/social-menu.php:8
+msgid "Social Menu"
+msgstr ""
+
+#: includes/social-menu.php:67
+msgid "Title:"
+msgstr ""
+
+#: includes/social-menu.php:71
+msgid "Select Menu:"
+msgstr ""
+
+#: includes/social-menu.php:73
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-activity-shortcode.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Description of the plugin/theme
+msgid "AlpenHouse Engine"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://motopress.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MotoPress"
+msgstr ""

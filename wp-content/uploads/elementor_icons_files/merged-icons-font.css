@@ -1,0 +1,45 @@
+i.eci{ 
+display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+     }
+@font-face {
+ font-family: 'stairs';
+  src: url('fontello-5f8f36c2.zip/fontello-5f8f36c2/font/stairs.eot?550901521');
+  src: url('fontello-5f8f36c2.zip/fontello-5f8f36c2/font/stairs.eot?550901521#iefix') format('embedded-opentype'),
+       url('fontello-5f8f36c2.zip/fontello-5f8f36c2/font/stairs.woff2?550901521') format('woff2'),
+       url('fontello-5f8f36c2.zip/fontello-5f8f36c2/font/stairs.woff?550901521') format('woff'),
+       url('fontello-5f8f36c2.zip/fontello-5f8f36c2/font/stairs.ttf?550901521') format('truetype'),
+       url('fontello-5f8f36c2.zip/fontello-5f8f36c2/font/stairs.svg?550901521#stairs') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.eci.stairs-016-check-out::before { content: '\e809'; font-family: 'stairs'; }
+.eci.stairs-007-password::before { content: '\e80a'; font-family: 'stairs'; }
+.eci.stairs-008-fan::before { content: '\e80b'; font-family: 'stairs'; }
+.eci.stairs-009-alarm::before { content: '\e80c'; font-family: 'stairs'; }
+.eci.stairs-010-hair-dryer::before { content: '\e80d'; font-family: 'stairs'; }
+.eci.stairs-011-shampoo::before { content: '\e80e'; font-family: 'stairs'; }
+.eci.stairs-012-toilet-paper::before { content: '\e80f'; font-family: 'stairs'; }
+.eci.stairs-014-check-in::before { content: '\e811'; font-family: 'stairs'; }
+.eci.stairs-016-moon-phase-outline::before { content: '\e813'; font-family: 'stairs'; }
+.eci.stairs-017-policy::before { content: '\e814'; font-family: 'stairs'; }
+.eci.stairs-018-success::before { content: '\e815'; font-family: 'stairs'; }
+.eci.stairs-020-radiator::before { content: '\e817'; font-family: 'stairs'; }
+.eci.stairs-021-office::before { content: '\e818'; font-family: 'stairs'; }
+.eci.stairs-022-iron-1::before { content: '\e819'; font-family: 'stairs'; }
+.eci.stairs-025-iron-2::before { content: '\e81c'; font-family: 'stairs'; }
+.eci.stairs-026-check-out::before { content: '\e81d'; font-family: 'stairs'; }
+.eci.stairs-028-block::before { content: '\e81f'; font-family: 'stairs'; }
+.eci.stairs-029-signal::before { content: '\e820'; font-family: 'stairs'; }
+.eci.stairs-030-mute::before { content: '\e821'; font-family: 'stairs'; }
+.eci.stairs-001-speaker::before { content: '\e822'; font-family: 'stairs'; }
+.eci.stairs-003-wifi-connection-signal-symbol::before { content: '\e824'; font-family: 'stairs'; }
+.eci.stairs-004-restaurant-eating-tools-set-of-three-pieces::before { content: '\e825'; font-family: 'stairs'; }
+.eci.stairs-005-washing-machine::before { content: '\e826'; font-family: 'stairs'; }
+.eci.stairs-006-towel::before { content: '\e827'; font-family: 'stairs'; }
+
+

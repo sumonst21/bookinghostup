@@ -1,0 +1,931 @@
+@charset "UTF-8";
+/*!
+Theme Name: Alpenhouse Child
+Theme URI: https://motopress.com/products/alpenhouse
+Author: MotoPress
+Author URI: https://motopress.com
+Description: AlpenHouse is a professional WordPress property rental theme with a neat design, full-blown PMS and a booking system.
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alpenhouse
+Template: alpenhouse
+*/
+
+/* Test */
+
+.mphb-gateway-test .mlsc-payment-icon {
+  display: none;
+}
+
+/*General*/
+
+.search-controls,
+.host_scheckin-template .site .site-wrapper .site-header .site-header-wrapper {
+  display: none;
+}
+
+.custom-header-content h1,
+.custom-header-content h2
+{
+  color: #000000 !important;
+}
+
+.is-style-squared .wp-block-button__link {
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+.related-posts{
+  display: none;
+}
+
+.mphb-attribute-value span a, .entry-meta span a, .entry-meta span {
+  color: #000000;
+  pointer-events: none;
+}
+
+label,.nav-next, .post-navigation .nav-links .nav-previous a .nav-text, .post-navigation .nav-links .nav-next a .nav-text {
+  color: #000000;
+}
+
+ul li + li {
+    margin-top: 4px;
+}
+
+.mphb_room_type-template .site .site-wrapper .site-header .site-header-wrapper{
+  display: none;
+}
+
+.mlsc-menu-sticky{
+  background-color: #ffffff;
+  border-bottom:1px solid #e5e5e5;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+.header-menu{
+  background-color: #ffffff;
+}
+
+button, .button, .elementor-widget-button .elementor-button, input {
+border-radius: 5px !important;
+}
+
+@media (min-width:1025px){
+ .custom-header-content{
+   padding-bottom: 16px;
+   padding-top: 12px;
+   font-size: 22px;
+  }
+}
+
+@media (min-width:1470px){
+  .custom-header-content h1{
+    font-size: 52px;
+  }
+}
+
+@media (max-width:767px){
+  .custom-header-content h1{
+    font-size: 42px;
+    margin-bottom: 2px;
+  }
+  .custom-header-content p{
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .site .site-wrapper .site-header .site-header-wrapper .main-slider-content .page-header-custom {
+    padding-top: 32px;
+    padding-bottom: 0px;
+  }
+}
+
+.site .site-wrapper .site-header .site-header-wrapper{
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, .post-navigation .post-title{
+  color: #000000;
+}
+
+.tooltipster-arrow-top span, .tooltipster-arrow span, span {
+  border-color: #000000 !important;
+}
+
+.mphb-check-in-date-wrapper input[type="text"],
+.mphb-check-out-date-wrapper input[type="text"],
+.mphb_sc_search-check-in-date input[type="text"],
+.mphb_sc_search-check-out-date input[type="text"],
+.mphb_widget_search-check-in-date input[type="text"],
+.mphb_widget_search-check-out-date input[type="text"] {
+  background-image: url("img/calendar_passive_icon.svg");
+  background-repeat: no-repeat;
+  background-position: right 1.125em top 1em;
+  background-size: 14px;
+  padding-right: 2.7em;
+}
+
+/* Navigator */
+
+.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .menu-item-3134 > a {
+  color: #ffd15b;
+}
+
+.site-header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-navigation li:hover > a,
+.main-navigation li.focus > a,
+.footer-navigation li:hover > a,
+.footer-navigation li.focus > a {
+  color: #808080;
+}
+
+.searchform .search-controls button {
+  color: #000000;
+}
+
+.searchform .search-controls button:hover {
+  color: #000000;
+}
+
+/*.premium-suffix-text, .premium-fancy-text, .premium-prefix-text {
+    font-size: 38px !important;
+}
+*/
+
+/* Page Header */
+
+.site .site-wrapper .site-header .site-header-wrapper .mphb_sc_search-wrapper label {
+  color: #000000;
+}
+
+.page-header .page-title {
+  display: none;
+  color: #000000 !important;
+}
+
+.site .site-wrapper .site-header .site-header-wrapper .header-overlay {
+  background-color: rgba(184, 188, 201, 0.35);
+}
+
+/* Removing elementor Fancy text from sections */
+/*.elementor-element-10ec003 {
+    display: none;
+}
+*/
+
+.elementor-widget-premium-addon-fancy-text .premium-prefix-text, .elementor-widget-premium-addon-fancy-text .premium-suffix-text {
+    color: #000000;
+}
+
+.elementor-widget-premium-addon-fancy-text .premium-prefix-text, .elementor-widget-premium-addon-fancy-text .premium-suffix-text {
+    color: #000000 !important;
+}
+
+/*Testimonials and Slider*/
+
+.testimonials-wrapper .testimonial-wrapper .rating .star, .testimonials-carousel .testimonial-wrapper .rating .star, .single-cptp-testimonial .cptp-testimonial .testimonial-wrapper .rating .star {
+    margin: 0 .15em;
+    font-size: .875rem;
+    color: #ffd15b;
+}
+
+.hentry:not(.page) .entry-header h2 a {
+    color: #000000;
+}
+
+.testimonials-carousel .slick-dots li button, .site .site-wrapper .site-header .site-header-wrapper .main-slider-content .slick-prev:hover, .site .site-wrapper .site-header .site-header-wrapper .main-slider-content .slick-next:hover {
+    background: #000000;
+}
+
+.testimonials-carousel .slick-dots li.slick-active button, .main-slider-dots .slick-dots li button {
+    background: #ffd15b;
+}
+
+#main-slider-dots .slick-dots li button:before, #main-slider-fixed-dots .slick-dots li button:before {
+  color: #000000;
+}
+
+#main-slider-dots .slick-dots li button:hover:before, #main-slider-fixed-dots .slick-dots li button:hover:before {
+  color: #808080;
+}
+
+#main-slider-dots .slick-dots li.slick-active button:before, #main-slider-fixed-dots .slick-dots li.slick-active button:before {
+  color: #ffd15b;
+}
+
+.main-slider-content .slick-next,
+.main-slider-content .slick-prev {
+  display: none !important;
+}
+/* explore our Room - homepage!! */
+
+.fa-map-marker {
+  margin-right: 1px;
+}
+
+
+
+/* Accommodation Style Page */
+
+
+.mphb_sc_rooms-wrapper.horizontal-list .type-mphb_room_type{
+  margin-bottom: 0px;
+}
+
+.mphb-room-types .mphb-room-type .mphb-room-type-title a, .widget.widget_mphb_rooms_widget .mphb-widget-room-type-title a {
+  color: #000000;
+}
+
+.mphb-room-types .mphb-room-type .mphb-room-type-title a:hover, .widget.widget_mphb_rooms_widget .mphb-widget-room-type-title a:hover {
+  color: #808080;
+}
+
+    /* Book Settings */
+.button[type="submit"], .button {
+  background: #000000;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button[type="submit"]:hover,
+.button:hover,
+.menu-highlighted-item a:hover,
+.more-link:hover {
+  background: #808080 !important;
+}
+
+.mphb-recommendation button, .mphb-view-details-button-wrapper a {
+  background: #000000;
+}
+
+.mphb-reserve-room-section input, .mphb-rooms-added .mphb-confirm-reservation  {
+  background: #006400 !important;
+}
+
+.mphb-customer-state label, .mphb-customer-city label, .mphb-customer-address1 label, .mphb-customer-zip label {
+  color: #000000;
+}
+
+.mphb-loop-room-type-attributes li.mphb-room-type-facilities:before, .mphb-single-room-type-attributes li.mphb-room-type-facilities:before, .mphb-widget-room-type-attributes li.mphb-room-type-facilities:before {
+    content: "\f005";
+}
+
+.nav-links {
+    margin-left: 9px;
+}
+
+   /* View Details */
+
+
+h1 face font {
+  font-size: 2.25rem;
+}
+
+.mphb-room-types .mphb-room-type .mphb-view-details-button-wrapper a, .mphb_sc_search_results-wrapper .mphb-room-type .mphb-view-details-button-wrapper a, .mphb-reserve-room-section button  {
+  background: #000000;
+  color: #ffffff;
+}
+
+.mphb-room-types .mphb-room-type .mphb-view-details-button-wrapper a:hover, .mphb_sc_search_results-wrapper .mphb-room-type .mphb-view-details-button-wrapper a:hover {
+  background: #000000;
+}
+
+.mphb-flexslider ul.flex-direction-nav .flex-prev:hover, .mphb-flexslider ul.flex-direction-nav .flex-next:hover {
+  background: #808080;
+}
+
+.mphb_sc_search_results-wrapper .mphb-room-type .mphb-room-type-title a:hover {
+ color: #808080;
+}
+
+
+.mphb-loop-room-type-attributes li:before, .mphb-single-room-type-attributes li:before, .mphb-widget-room-type-attributes li:before, .mphb-details-title  {
+  color: #000000;
+}
+/* Footer */
+
+
+.site .site-wrapper .site-footer {
+    background-color: #000000;
+}
+
+.footer-top a, .footer-top .textwidget {
+        color: #ffffff;
+  }
+
+.footer-top h2 {
+  color: #808080;
+}
+
+.footer-top input[type="button"]:hover {
+    background: #ffd15b;
+}
+.textwidget .button {
+    background: #808080;
+}
+
+.widget .alpenhouse-social-menu ul li a:before {
+  color: #ffffff;
+}
+
+.widget .alpenhouse-social-menu ul li a::before {
+    font-size: 22px;
+  }
+
+.footer-bottom {
+  display: none;
+}
+
+.fa.fa-paper-plane {
+    margin-right: 7px;
+    font-size: 15px;
+}
+
+.fa.fa-phone{
+    margin-right: 9px;
+}
+
+.fa.fa-map-marker {
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+.icon-text {
+    margin-bottom: 10px;
+}
+
+.icon-text i {
+    font-size:17px;
+}
+
+.widget .widget-title {
+    margin-bottom: 14px;
+}
+
+.site-footer .widget-area .widget {
+    margin-bottom: 21px;
+}
+
+.site-footer .footer-top {
+    padding: 2.0em 0;
+}
+
+.menu-socials-menu-container {
+    margin-left: -16px;
+    margin-top: -2px;
+}
+
+.widget .alpenhouse-social-menu ul li a:hover:before {
+  color: #ffd15b;
+}
+
+.menu-menu-footer-container .menu li a {
+  margin-bottom: -9px;
+}
+/*Amenities*/
+
+.mpce-custom344583fff {
+  color: #000000;
+}
+
+.tooltipster-content   {
+  padding: 6px !important;
+  background-color: #000000;
+}
+
+.tooltipster-base {
+  z-index: 1 !important;
+}
+
+@media (min-width:1025px){
+  section#nav_menu-3 {
+      margin-left: 62px;
+  }
+}
+
+
+/* Search Availability & Reservation Form*/
+
+.widget-title, .mphb_widget_search-form label, .mphb-recommendation-title, .mphb-reservation-form-title, .mphb-check-in-date-wrapper label,
+.mphb_sc_search_results-wrapper .mphb-room-type .mphb-room-type-title a, .mphb-check-out-date-wrapper label, .mphb-adults-wrapper label{
+  color: #000000;
+}
+
+.mphb-reserve-room-section button{
+  margin-bottom: 15px;
+}
+
+.btn .loadMoreBtn, .widget_recent_entries ul li a {
+    margin-top: 10px;
+    color: #3f7bfe !important;
+  }
+
+
+.btn.loadMoreBtn{
+    color: #3f7bfe !important;
+}
+
+  .btn.loadMoreBtn:hover {
+    text-decoration: underline !important;
+  }
+
+.widget_recent_entries ul li {
+  margin-bottom: 12px;
+}
+
+.mlsc-results-inf {
+  font-size: 18px;
+  color: #000000;
+}
+
+.mphb-recommendation-title{
+    margin-top: 0px;
+}
+
+.mphb_sc_search_results-wrapper .mphb-reservation-cart{
+    margin-top: 32px;
+    margin-bottom: 10px !important;
+}
+
+
+.mphb-confirm-reservation{
+  background-color: #006400;
+}
+
+/* Book Online */
+
+.mphb_sc_search-check-in-date label, .mphb_sc_search-check-out-date label, .mphb_sc_search-adults label{
+  color: #000000;
+}
+
+/*Contact Us */
+
+.wpcf7-form p label {
+  color: #000000;
+  font-size: 16px;
+}
+
+.wpcf7-form p input[type="submit"] {
+  background: #000000;
+}
+
+/*Booking Details */
+
+.mphb_sc_checkout-wrapper .mphb-coupon-code-wrapper .mphb-coupon-message {
+  color: #ff0000;
+}
+
+.mlsc_term{
+  padding-top: 8px;
+}
+
+.mlsc_checktime {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.mphb_sc_checkout-wrapper .mphb-booking-details .mphb-booking-details-title {
+  margin-top: -42px;
+}
+
+.widget.widget_mphb_search_availability_widget form .mphb_widget_search-adults {
+  float: none;
+}
+
+.mphb_sc_checkout-submit-wrapper .button {
+  background-color: #006400 !important;
+}
+
+.mlsc-payment-icon img{
+    margin-top: 14px;
+    border-radius: 3px;
+}
+
+
+.mphb-gateway-paypal .mlsc-payment-icon .mlsc-stripe-icon, .mphb-gateway-stripe .mlsc-payment-icon .mlsc-paypal-icon{
+    display: none;
+}
+
+.mphb-checkbox-label span {
+  font-size: 1rem;
+}
+
+.mphb_sc_checkout-wrapper .mphb_sc_checkout-form > .mphb-checkout-section:not(:first-of-type) {
+    margin-top: 1.75rem;
+}
+
+.mphb-coupon-code-title {
+  font-family: 'din-neuzit-grotesk' !important;
+  font-size: 1.25rem;
+  text-transform: none;
+}
+
+.mphb_sc_checkout-wrapper .mphb-booking-details .mphb-room-details {
+    margin-top: 4.25rem;
+}
+
+.mphb_sc_checkout-wrapper .mphb-services-details {
+    margin-top: 1.75rem;
+}
+
+.mphb_sc_checkout-wrapper .mphb-booking-details h3 {
+    font-size: 32px;
+}
+
+.mphb-reserve-rooms-details .mphb-room-details .mphb-room-type-title a {
+  text-decoration: underline;
+}
+
+.mphb_sc_checkout-wrapper .mphb-booking-details .mphb-booking-details-title {
+  font-size: 42px;
+  text-align: center;
+}
+
+label, .mphb-attribute-title {
+  color: #000000;
+}
+
+.mphb-booking-details h3, .mphb-booking-details h4, .mphb-adults-chooser label, .mphb-guest-name-wrapper label, .mphb-price-breakdown-title, .mphb-customer-details-title, .mphb-price-breakdown th,
+.mphb-customer-name label, .mphb-customer-last-name label, .mphb-customer-email label, .mphb-customer-phone label, .mphb-customer-country label, .mphb-customer-note label, .mphb-coupon-details p > label {
+  color: #000000;
+}
+
+/* Terms & Conditions */
+
+.mphb_sc_checkout-form .mphb-terms-and-conditions  {
+  background: #ffffff;
+}
+
+/* Location */
+
+.post-navigation .nav-previous:hover .post-title, .post-navigation .nav-next:hover .post-title {
+  color: #808080;
+}
+
+.portfolio-menu ul li a  {
+  background: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.portfolio-menu ul li.current-cat a{
+  background: #ffd15b;
+}
+
+.portfolio-menu ul li a:hover {
+  background: #808080;
+}
+
+/*Section - Ready to book? */
+
+.elementor-widget-button .elementor-button {
+  background: #000000 !important;
+}
+
+.elementor-widget-button .elementor-button:hover {
+  background: #808080 !important;
+}
+
+
+
+/* Section Our rooms */
+
+.entry-footer {
+  display: none;
+}
+
+
+li.mphb-room-type-size, li.mphbddisplay, li.mphb-room-type-categories {
+  display: none !important;
+}
+
+.elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+  padding: 0px !important;
+}
+/* Pagination */
+
+.pagination .page-numbers, .pagination a.prev, .pagination a.next {
+  color: #000000;
+  background: #fff;
+}
+
+.pagination .page-numbers.current {
+  color: #fff;
+  background: #000000;
+}
+
+.pagination a.page-numbers:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #808080;
+}
+
+
+/*Rooms*/
+
+
+.elementor-36 .elementor-element.elementor-element-b7052a8 .elementor-icon-box-content .elementor-icon-box-description,
+.elementor-36 .elementor-element.elementor-element-4599cb6 .elementor-icon-box-content .elementor-icon-box-description,
+.elementor-36 .elementor-element.elementor-element-bdd4628 .elementor-icon-box-content .elementor-icon-box-description,
+.elementor-36 .elementor-element.elementor-element-abf55b1 .elementor-icon-box-content .elementor-icon-box-description{
+  text-align: justify;
+}
+
+.elementor-36 .elementor-element.elementor-element-b7052a8 .elementor-icon-box-content .elementor-icon-box-title,
+.elementor-36 .elementor-element.elementor-element-4599cb6 .elementor-icon-box-content .elementor-icon-box-title,
+.elementor-36 .elementor-element.elementor-element-bdd4628 .elementor-icon-box-content .elementor-icon-box-title,
+.elementor-36 .elementor-element.elementor-element-abf55b1 .elementor-icon-box-content .elementor-icon-box-title{
+  font-size: 17px;
+}
+
+
+.mphb_sc_room-wrapper.price_color .mphb-price {
+  font-size: 22px;
+  color: #fa7705;
+}
+
+
+.mphb-regular-price{
+  font-size: 16px;
+}
+
+.mphb-price {
+  color: #000000;
+  font-weight: bold;
+}
+
+.mphb-price-period {
+  color: #000000;
+}
+
+.mphb_sc_rooms-wrapper.grid .type-mphb_room_type .mphb-room-type-title {
+  font-weight: bold;
+}
+
+.mphb-room-type-title a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Mobile Phone */
+
+.header-menu.menu-opened .menu-toggle {
+  color: #000000;
+}
+
+@media screen and (max-width: 991px) {
+  .main-navigation li a,
+  .footer-navigation li a {
+    color: #000000;
+  }
+}
+
+.menu-toggle {
+  color: #000000;
+}
+
+.menu-toggle:hover {
+  color: #808080;
+}
+
+/* Ultimate Membership */
+
+.main-navigation ul ul {
+    background-color: #000000;
+}
+
+.main-navigation li {
+    margin-top: 9px;
+}
+
+@media (min-width:1025px){
+
+  #menu-item-776{
+    margin-top: 12px;
+  }
+
+  .mlsc-button {
+    background-color: #000000;
+  	-moz-border-radius:5px;
+  	-webkit-border-radius:5px;
+  	border-radius:5px;
+  	display:inline-block;
+  	cursor:pointer;
+  	font-weight:bold;
+  	padding:0px;
+  	text-decoration:none;
+  }
+  .mlsc-button:hover {
+  	background-color:#808080;
+  }
+  .mlsc-button:active {
+  	position:relative;
+  	top:1px;
+  }
+
+  .mlsc-button a{
+    padding-right: 10px !important;
+    padding: 10px;
+    color: #ffffff !important;
+  }
+
+  .um .um-tip:hover,
+  .um .um-field-radio.active:not(.um-field-radio-state-disabled) i,
+  .um .um-field-checkbox.active:not(.um-field-radio-state-disabled) i,
+  .um .um-member-name a:hover,
+  .um .um-member-more a:hover,
+  .um .um-member-less a:hover,
+  .um .um-members-pagi a:hover,
+  .um .um-cover-add:hover,
+  .um .um-profile-subnav a.active,
+  .um .um-item-meta a,
+  .um-account-name a:hover,
+  .um-account-nav a.current,
+  .um-account-side li a.current span.um-account-icon,
+  .um-account-side li a.current:hover span.um-account-icon,
+  .um-dropdown li a:hover,
+  i.um-active-color,
+  span.um-active-color
+  {
+      color: #000000!important;
+  }
+
+  .um .um-field-group-head,
+  .picker__box,
+  .picker__nav--prev:hover,
+  .picker__nav--next:hover,
+  .um .um-members-pagi span.current,
+  .um .um-members-pagi span.current:hover,
+  .um .um-profile-nav-item.active a,
+  .um .um-profile-nav-item.active a:hover,
+  .upload,
+  .um-modal-header,
+  .um-modal-btn,
+  .um-modal-btn.disabled,
+  .um-modal-btn.disabled:hover,
+  div.uimob800 .um-account-side li a.current,
+  div.uimob800 .um-account-side li a.current:hover
+  {
+      background: #000000!important;
+  }
+
+  .um .um-field-group-head:hover,
+  .picker__footer,
+  .picker__header,
+  .picker__day--infocus:hover,
+  .picker__day--outfocus:hover,
+  .picker__day--highlighted:hover,
+  .picker--focused .picker__day--highlighted,
+  .picker__list-item:hover,
+  .picker__list-item--highlighted:hover,
+  .picker--focused .picker__list-item--highlighted,
+  .picker__list-item--selected,
+  .picker__list-item--selected:hover,
+  .picker--focused .picker__list-item--selected {
+      background: #808080!important;
+  }
+
+  .um input[type=submit]:disabled:hover {
+      background: #000000!important;
+  }
+
+  .um input[type=submit].um-button,
+  .um input[type=submit].um-button:focus,
+  .um a.um-button,
+  .um a.um-button.um-disabled:hover,
+  .um a.um-button.um-disabled:focus,
+  .um a.um-button.um-disabled:active {
+      background: #000000!important;
+  }
+
+  .um .um-button.um-alt:hover, .um input[type=submit].um-button.um-alt:hover {
+      background: #e5e5e5!important;
+  }
+
+  .um .um-button.um-alt, .um input[type=submit].um-button.um-alt {
+      background: #e5e5e5!important;
+  }
+
+  .um a.um-link {
+      color: #000000!important;
+  }
+
+  .um input[type=submit].um-button:hover,
+  .um a.um-button:hover {
+      background-color: #808080!important;
+  }
+
+  .um a.um-link:hover,
+  .um a.um-link-hvr:hover {
+      color: #808080!important;
+  }
+}
+
+/* Customer form - Your Information*/
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Choose File';
+  color: #fff;
+  display: inline-block;
+  background: #000000;
+  border-radius: 5px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+  background: #808080;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+/* Admin - Booking */
+
+.file-icon {
+    margin-top: 10px;
+}
+
+
+/* Self-Check-in*/
+
+.eae-tl-item-title{
+  display: none;
+}
+
+.eae-tl-content-innner{
+  line-height: 1.6;
+
+}
+
+/* Protect Password */
+
+input[type="submit"] {
+  background-color: #000000;
+  height: 47px;
+}
+
+form.post-password-form {
+  margin-bottom: 220px;
+}
+
+.post-password-form p {
+  font-size: 19px;
+}
+
+
+/* Room Location*/
+
+.mphb_sc_checkout-wrapper .mphb-booking-details .mphb-room-type-title {
+  margin-bottom: 3px;
+}
+
+.mphb-room-location{
+  color:#77818c;
+}
+
+.mphb-room-type-location {
+  color: #FF0000;
+}
+
+/* How to get */
+
+.wp-block-media-text__content h3, .wp-block-media-text__content h2 {
+    margin-bottom: 1px;
+}
+
+.wp-block-media-text__content {
+    margin-top: 24px;
+    padding: 0 4% 0 4% !important;
+}
+
+.wp-block-media-text__media {
+    margin-top: 11px;
+}
+
+@media screen and (max-width: 767px) {
+  .eae-popup .mfp-inline-holder .mfp-content {
+    width: 85%;
+  }
+  .tooltipster-base {
+    display: none;
+  }
+}

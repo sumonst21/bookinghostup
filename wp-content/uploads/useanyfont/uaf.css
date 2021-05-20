@@ -1,0 +1,82 @@
+			@font-face {
+				font-family: 'din-neuzit-grotesk';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/190204100202Din-Neuzit-Grotesk.eot');
+				src: local('din-neuzit-grotesk'), url('/wp-content/uploads/useanyfont/190204100202Din-Neuzit-Grotesk.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/190204100202Din-Neuzit-Grotesk.woff') format('woff');
+			}
+            
+            .din-neuzit-grotesk{font-family: 'din-neuzit-grotesk' !important;}
+            
+					@font-face {
+				font-family: 'avenir-light-webfont';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/190204100217Avenir-Light-WebFont.eot');
+				src: local('avenir-light-webfont'), url('/wp-content/uploads/useanyfont/190204100217Avenir-Light-WebFont.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/190204100217Avenir-Light-WebFont.woff') format('woff');
+			}
+            
+            .avenir-light-webfont{font-family: 'avenir-light-webfont' !important;}
+            
+					@font-face {
+				font-family: 'din-neuzit-grotesk';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/190208101303Din-Neuzit-Grotesk.eot');
+				src: local('din-neuzit-grotesk'), url('/wp-content/uploads/useanyfont/190208101303Din-Neuzit-Grotesk.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/190208101303Din-Neuzit-Grotesk.woff') format('woff');
+			}
+            
+            .din-neuzit-grotesk{font-family: 'din-neuzit-grotesk' !important;}
+            
+					@font-face {
+				font-family: 'din-neuzit-grotesk';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/190217023700Din-Neuzit-Grotesk.eot');
+				src: local('din-neuzit-grotesk'), url('/wp-content/uploads/useanyfont/190217023700Din-Neuzit-Grotesk.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/190217023700Din-Neuzit-Grotesk.woff') format('woff');
+			}
+            
+            .din-neuzit-grotesk{font-family: 'din-neuzit-grotesk' !important;}
+            
+					@font-face {
+				font-family: 'avenir-light-webfont';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/190217023729avenir-light-webfont.eot');
+				src: local('avenir-light-webfont'), url('/wp-content/uploads/useanyfont/190217023729avenir-light-webfont.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/190217023729avenir-light-webfont.woff') format('woff');
+			}
+            
+            .avenir-light-webfont{font-family: 'avenir-light-webfont' !important;}
+            
+					@font-face {
+				font-family: 'din-neuzit-grotesk';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/190626012345Din-Neuzit-Grotesk.eot');
+				src: local('din-neuzit-grotesk'), url('/wp-content/uploads/useanyfont/190626012345Din-Neuzit-Grotesk.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/190626012345Din-Neuzit-Grotesk.woff') format('woff');
+			}
+            
+            .din-neuzit-grotesk{font-family: 'din-neuzit-grotesk' !important;}
+            
+						h1, h2, h3, h4, h5, h6{
+					font-family: 'din-neuzit-grotesk' !important;
+				}
+						.elementor-widget-premium-addon-fancy-text .premium-suffix-text, .elementor-widget-premium-addon-fancy-text .premium-fancy-text{
+					font-family: 'din-neuzit-grotesk' !important;
+				}
+						h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
+					font-family: 'din-neuzit-grotesk' !important;
+				}
+						h2 a{
+					font-family: 'din-neuzit-grotesk' !important;
+				}
+						h2 span{
+					font-family: 'din-neuzit-grotesk' !important;
+				}
+						.elementor-widget-premium-addon-fancy-text .premium-prefix-text{
+					font-family: 'din-neuzit-grotesk' !important;
+				}
+						body, p, blockquote, li, a{
+					font-family: 'avenir-light-webfont' !important;
+				}
+						.elementor-element-53281e2 p strong{
+					font-family: 'din-neuzit-grotesk' !important;
+				}
+						input{
+					font-family: 'avenir-light-webfont' !important;
+				}
+		

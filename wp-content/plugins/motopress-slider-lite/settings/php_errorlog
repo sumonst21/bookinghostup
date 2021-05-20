@@ -1,0 +1,42 @@
+[10-Nov-2019 21:10:03 CST6CDT] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/layer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/layer.php on line 3
+[10-Nov-2019 22:21:52 CST6CDT] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slide.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slide.php on line 4
+[10-Nov-2019 23:43:48 CST6CDT] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slider.php on line 18
+[11-Nov-2019 00:56:04 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/preset.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/preset.php on line 6
+[11-Nov-2019 07:19:27 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/plugin.php' (include_path='.:/usr/local/php71/pear') in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/settings.php on line 2
+[11-Nov-2019 19:16:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slider-presets.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slider-presets.php on line 6
+[30-Nov-2019 19:22:23 CST6CDT] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slider.php on line 18
+[30-Nov-2019 19:22:31 CST6CDT] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slide.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slide.php on line 4
+[30-Nov-2019 19:22:49 CST6CDT] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/layer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/layer.php on line 3
+[02-Dec-2019 13:17:02 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/preset.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/preset.php on line 6
+[02-Dec-2019 13:29:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slider-presets.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/slider-presets.php on line 6
+[02-Dec-2019 13:32:02 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/plugin.php' (include_path='.:/usr/local/php71/pear') in /home/bookingh/public_html/wp-content/plugins/motopress-slider-lite/settings/settings.php on line 2

@@ -1,0 +1,530 @@
+/*
+Theme Name: Alpenhouse
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+/*
+ * @include respond-to(xs) {
+ *       width: 100%;
+ *	}
+ */
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Reset
+# Accessibility
+# Typography
+# Forms
+# Navigation
+  ## Menus
+  ## Navigation
+# Widgets
+# Content
+  ## Header
+  ## Footer
+  ## Posts and pages
+  ## Comments
+# Home page
+# Booking form
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Reset
+--------------------------------------------------------------*/
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+th {
+  text-align: right;
+}
+
+/*--------------------------------------------------------------
+## Accessibility
+--------------------------------------------------------------*/
+.screen-reader-text:focus {
+  left: auto;
+  right: 5px;
+}
+
+/*--------------------------------------------------------------
+## Typography
+--------------------------------------------------------------*/
+caption, th, td {
+  text-align: right;
+}
+
+li > ul,
+li > ol {
+  margin-left: 0;
+  margin-right: 1em;
+}
+
+select {
+  background-position: left 1.0625em top 1em;
+  padding-left: 2.875em;
+  padding-right: 1.25em;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 0 0 0.5em 1.1em;
+  width: auto;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.top-navigation-right .menu-item-has-children .menu-item-has-children > a:after,
+.main-navigation .menu-item-has-children .menu-item-has-children > a:after {
+  right: auto;
+  left: 1.3em;
+}
+
+.top-navigation-right .menu-item-has-children > a:after,
+.main-navigation .menu-item-has-children > a:after {
+  margin-right: 0.6em;
+  margin-left: 0;
+  float: left;
+}
+
+.top-navigation-right .menu-item-has-children .dropdown-toggle,
+.main-navigation .menu-item-has-children .dropdown-toggle {
+  left: 0;
+  right: auto;
+}
+
+.top-navigation-right .sub-menu .menu-item-has-children > a:after,
+.main-navigation .sub-menu .menu-item-has-children > a:after {
+  float: left;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+@media screen and (min-width: 992px) {
+  .top-navigation-right .menu-item-has-children .menu-item-has-children a,
+  .main-navigation .menu-item-has-children .menu-item-has-children a {
+    padding: 0.75em 1em 0.75em 2.6em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer-navigation ul ul a,
+  .top-navigation-right ul ul a,
+  .main-navigation ul ul a {
+    border-left: 0px solid transparent;
+    border-right: 2px solid transparent;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer-navigation ul ul li:hover > ul,
+  .footer-navigation ul ul li.focus > ul,
+  .top-navigation-right ul ul li:hover > ul,
+  .top-navigation-right ul ul li.focus > ul,
+  .main-navigation ul ul li:hover > ul,
+  .main-navigation ul ul li.focus > ul {
+    right: 100%;
+    margin-right: -1px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer-navigation ul li > ul,
+  .top-navigation-right ul li > ul,
+  .main-navigation ul li > ul {
+    left: auto;
+    right: -1.28571em;
+  }
+  .footer-navigation ul li li > ul,
+  .top-navigation-right ul li li > ul,
+  .main-navigation ul li li > ul {
+    right: 100%;
+    left: auto;
+  }
+}
+
+.footer-navigation .menu-item-has-children ul a:hover, .footer-navigation .menu-item-has-children ul .current_page_item > a,
+.footer-navigation .menu-item-has-children ul .current-menu-item > a,
+.footer-navigation .menu-item-has-children ul .current_page_ancestor > a,
+.footer-navigation .menu-item-has-children ul .current-menu-ancestor > a,
+.top-navigation-right .menu-item-has-children ul a:hover,
+.top-navigation-right .menu-item-has-children ul .current_page_item > a,
+.top-navigation-right .menu-item-has-children ul .current-menu-item > a,
+.top-navigation-right .menu-item-has-children ul .current_page_ancestor > a,
+.top-navigation-right .menu-item-has-children ul .current-menu-ancestor > a,
+.main-navigation .menu-item-has-children ul a:hover,
+.main-navigation .menu-item-has-children ul .current_page_item > a,
+.main-navigation .menu-item-has-children ul .current-menu-item > a,
+.main-navigation .menu-item-has-children ul .current_page_ancestor > a,
+.main-navigation .menu-item-has-children ul .current-menu-ancestor > a {
+  border-right-color: currentColor;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-navigation li:after {
+    margin-left: 0;
+    margin-right: 0.78571em;
+  }
+}
+
+.search-icon-wrapper {
+  margin-left: 0em;
+  margin-right: 1.5em;
+}
+
+.search-modal .search-form {
+  margin: 0.625em 0 0.625em 2.25em;
+}
+
+.search-modal .close-search-modal {
+  float: left;
+}
+
+.search-form .search-field {
+  padding-right: 1.25em;
+  padding-left: 3em;
+}
+
+.search-form .search-submit {
+  right: auto;
+  left: 0;
+}
+
+.menu-toggle .fa {
+  margin: 0 0 0 0.3em;
+}
+
+.menu-toggle {
+  float: right;
+}
+
+.menu-toggle-wrapper .search-icon-wrapper {
+  float: left;
+  margin-left: 1.25em;
+}
+
+.top-navigation-right .menu-item-has-children a, .main-navigation .menu-item-has-children a {
+  margin-right: 0;
+  margin-left: 4em;
+}
+
+@media screen and (min-width: 992px) {
+  .top-navigation-right .menu-item-has-children a, .main-navigation .menu-item-has-children a {
+    margin-left: 0;
+  }
+}
+
+.main-navigation .top-navigation-mobile ul a {
+  padding-right: 1.57143em;
+  padding-left: 0;
+}
+
+.main-navigation .top-navigation-mobile ul ul a {
+  padding-right: 3.14286em;
+  padding-left: 0;
+}
+
+.main-navigation .top-navigation-mobile ul ul ul a {
+  padding-right: 4.71429em;
+  padding-left: 0;
+}
+
+.footer-navigation ul ul a,
+.top-navigation-right ul ul a,
+.main-navigation ul ul a {
+  padding-right: 1.57143em;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-navigation ul ul a,
+  .top-navigation-right ul ul a,
+  .main-navigation ul ul a {
+    padding: 0.75em 1em;
+  }
+}
+
+.footer-navigation ul ul ul a,
+.top-navigation-right ul ul ul a,
+.main-navigation ul ul ul a {
+  padding-right: 3.14286em;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-navigation ul ul ul a,
+  .top-navigation-right ul ul ul a,
+  .main-navigation ul ul ul a {
+    padding: 0.75em 1em;
+  }
+}
+
+.footer-navigation ul ul ul ul a,
+.top-navigation-right ul ul ul ul a,
+.main-navigation ul ul ul ul a {
+  padding-right: 4.71429em;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-navigation ul ul ul ul a,
+  .top-navigation-right ul ul ul ul a,
+  .main-navigation ul ul ul ul a {
+    padding: 0.75em 1em;
+  }
+}
+
+/*--------------------------------------------------------------
+## Navigation
+--------------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+  .comment-navigation .nav-previous,
+  .posts-navigation .nav-previous,
+  .post-navigation .nav-previous {
+    float: right;
+  }
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-navigation .nav-next,
+  .posts-navigation .nav-next,
+  .post-navigation .nav-next {
+    float: left;
+  }
+}
+
+.pagination .page-numbers {
+  float: right;
+}
+
+.pagination .prev {
+  margin-left: 0.8em;
+  margin-right: 0;
+}
+
+.pagination .next {
+  margin-right: 0.8em;
+  margin-left: 0;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget.widget_calendar tfoot #next {
+  text-align: left;
+}
+
+.tagcloud a {
+  margin: 0.42857em 0 0 0.21429em;
+}
+
+.widget.widget_calendar tfoot td#prev {
+  text-align: right;
+}
+
+@media screen and (min-width: 1470px) {
+  .widget.widget_calendar thead tr td:first-child, .widget.widget_calendar thead tr th:first-child,
+  .widget.widget_calendar tbody tr td:first-child,
+  .widget.widget_calendar tbody tr th:first-child {
+    padding-left: 2.2em;
+  }
+  .widget.widget_calendar thead tr td:last-child, .widget.widget_calendar thead tr th:last-child,
+  .widget.widget_calendar tbody tr td:last-child,
+  .widget.widget_calendar tbody tr th:last-child {
+    padding-right: 2.2em;
+  }
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+@media screen and (min-width: 992px) {
+  .site-logo-wrapper {
+    margin-right: 0em;
+    margin-left: 3.75em;
+  }
+  .custom-logo-link {
+    margin: 0 0 0 0.9em;
+  }
+  .site-branding {
+    text-align: right;
+  }
+  .site-header-menu {
+    margin: 0 0 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .top-line .site-branding {
+    margin: 0 0 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .top-line .site-header-menu {
+    margin: 0  -0.929em 0 auto;
+  }
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@media screen and (min-width: 992px) {
+  .site-info {
+    text-align: right;
+  }
+}
+
+.wrapper-bottom .site-info {
+  margin: 0 0 0 auto;
+}
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.entry-footer .fa {
+  margin-right: 0;
+  margin-left: 0.57143em;
+}
+
+.entry-footer .byline, .entry-footer .posted-on, .entry-footer .comments-link, .entry-footer .cat-links, .entry-footer .tags-links {
+  margin-right: 0;
+  margin-left: 1.5em;
+}
+
+.author-avatar .avatar {
+  float: right;
+  margin: 0.25em 0 0 1.8125em;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-metadata > a, .pingback .edit-link > a {
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+.comment-author .avatar {
+  float: right;
+  margin: 0.4375em 0 1.875em 1.875em;
+}
+
+/*--------------------------------------------------------------
+# Home page
+--------------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+  body.page-template-template-front-page .entry-content .mphb_sc_search-form .mphb_sc_search-check-in-date, body.page-template-template-front-page .entry-content .mphb_sc_search-form .mphb_sc_search-check-out-date,
+  body.page-template-template-front-page .entry-content .mphb_sc_search-form .mphb_sc_search-adults, body.page-template-template-front-page .entry-content .mphb_sc_search-form .mphb_sc_search-children {
+    margin-left: 1.25em;
+    margin-right: 0em;
+  }
+}
+
+body .mphb_sc_search_results-wrapper .mphb-to-book-btn-wrapper, body .mphb_sc_rooms-wrapper .mphb-to-book-btn-wrapper {
+  float: right;
+}
+
+body .testimonial-entry {
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  body .testimonial-entry.has-testimonial-thumbnail {
+    padding-right: 130px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body .testimonial-entry.has-testimonial-thumbnail .testimonial-featured-image {
+    left: auto;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body .testimonial-featured-image {
+    float: right;
+    margin-right: 0;
+    margin-left: 1.875em;
+  }
+}
+
+/*--------------------------------------------------------------
+# Booking form
+--------------------------------------------------------------*/
+body input[type='text'].mphb-datepick.is-datepick {
+  padding-right: 1.25em !important;
+  padding-left: 2.7em !important;
+  background-position: left 1.0625em top 1em !important;
+}
+
+body .mphb-loop-room-type-attributes .mphb-attribute-title, body .mphb-single-room-type-attributes .mphb-attribute-title, body .mphb-widget-room-type-attributes .mphb-attribute-title {
+  padding: 0.8125em 0 0.8125em 0.8125em;
+}
+
+body .mphb_sc_search_results-wrapper .mphb-reserve-room-section .mphb-book-button, body .mphb_sc_search_results-wrapper .mphb-reserve-room-section .mphb-confirm-reservation, body .mphb_sc_search_results-wrapper .mphb-view-details-button-wrapper, body .mphb_sc_search_results-wrapper .mphb-to-book-btn-wrapper, body .mphb_sc_rooms-wrapper .mphb-reserve-room-section .mphb-book-button, body .mphb_sc_rooms-wrapper .mphb-reserve-room-section .mphb-confirm-reservation, body .mphb_sc_rooms-wrapper .mphb-view-details-button-wrapper, body .mphb_sc_rooms-wrapper .mphb-to-book-btn-wrapper {
+  margin-left: 2.125em;
+  margin-right: 0;
+}
+
+body .mphb_room_type_categories_header_wrapper a {
+  margin: 0.42857em 0 0 0.21429em;
+}
+
+@media screen and (min-width: 768px) {
+  body .mphb_sc_services-wrapper .mphb-service:nth-child(2n-1) {
+    border-left: 1px solid #e4e4e4 !important;
+    border-right: 0px solid #e4e4e4 !important;
+  }
+  body .mphb_sc_services-wrapper .mphb-service:nth-child(2n-1) .mphb-loop-service-thumbnail {
+    margin-right: -1.875em !important;
+    margin-left: -1.9375em !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body .mphb_sc_checkout-form input[type="radio"], body .mphb_sc_checkout-form input[type="checkbox"] {
+    width: auto !important;
+  }
+}
+
+body .mphb-gateways-list input[type='radio'] {
+  float: right !important;
+}
+
+body .mphb_sc_checkout-services-list,
+body .mphb-gateways-list {
+  margin-right: 0;
+}
+
+body.page-template-template-front-page .mphb-loop-room-type-attributes:first-of-type li:before {
+  padding-right: 0;
+  padding-left: 0.875em;
+}
+
+body .mphb_sc_search_results-wrapper .mphb-to-book-btn-wrapper, body .mphb_sc_rooms-wrapper .mphb-to-book-btn-wrapper {
+  float: right !important;
+}
+
+body .mphb_sc_search_results-wrapper .mphb-reserve-room-section .mphb-book-button, body .mphb_sc_search_results-wrapper .mphb-reserve-room-section .mphb-confirm-reservation, body .mphb_sc_search_results-wrapper .mphb-view-details-button-wrapper, body .mphb_sc_search_results-wrapper .mphb-to-book-btn-wrapper, body .mphb_sc_rooms-wrapper .mphb-reserve-room-section .mphb-book-button, body .mphb_sc_rooms-wrapper .mphb-reserve-room-section .mphb-confirm-reservation, body .mphb_sc_rooms-wrapper .mphb-view-details-button-wrapper, body .mphb_sc_rooms-wrapper .mphb-to-book-btn-wrapper {
+  margin-right: 0 !important;
+}

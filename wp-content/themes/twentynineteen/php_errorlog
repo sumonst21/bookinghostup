@@ -1,0 +1,4 @@
+[09-Dec-2019 14:41:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/bookingh/public_html/wp-content/themes/twentynineteen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/bookingh/public_html/wp-content/themes/twentynineteen/functions.php on line 16

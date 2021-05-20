@@ -3,7 +3,7 @@ Host-UP Booking
 
 Host-UP is a British vacation rental online marketplace company based in London developed in Wordpress.
 
-Features:
+Features
 ---------
       
 - Booking Management System
@@ -11,7 +11,7 @@ Features:
 - Admin and Client Email Notification
 - Self Check-in system
 
-Plugins:
+Plugins
 ---------
 
 - Hotel Booking
@@ -22,7 +22,7 @@ Plugins:
 - Elementor
 - Smush
 
-Host:
+Host
 ---------
 
 - Siteground
